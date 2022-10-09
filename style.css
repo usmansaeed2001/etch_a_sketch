@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+#container {
+    width: 200px;
+}
+.box {
+    width: 20px;
+    height: 20px;
+    background-color: burlywood;
+    display: inline-block;
+}
+
+.box:hover {
+    background-color: brown;
+}
+
+.clicked {
+    background-color: black;
+}
