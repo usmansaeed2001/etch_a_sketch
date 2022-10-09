@@ -1,22 +1,24 @@
 body {
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
+    display: grid;
+    place-items: center;
 }
 #container {
-    width: 200px;
+    width: 400px;
+    height: 400px;
 }
 .box {
-    width: 20px;
-    height: 20px;
-    background-color: burlywood;
+    background-color: #F5F5F5;
     display: inline-block;
+    box-sizing: border-box;
 }
 
 .box:hover {
-    background-color: brown;
+    background-color: #A9A9A9;
 }
-
+.row {
+    margin: 0px;
+    padding: 0px;
+}
 .clicked {
     background-color: black;
 }
